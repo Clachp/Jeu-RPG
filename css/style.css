@@ -11,3 +11,26 @@ body {
 
   margin: 20px;
 }
+
+#board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.row {
+  display: flex;
+  
+}
+
+.cell {
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+
+}
+
+.targetCell {
+  background-color: green;
+}
